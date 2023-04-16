@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding-top: 50px;
+    padding-left: 600px;
+}
+
+.details p {
+    text-align: center;
+    font-size: larger;
+    margin-top: -15px;
+}
+
+img {
+    padding-top: 20px;
+    padding-left: 540px;
+}
+
+.tableheading h1 {
+    text-align: center;
+    padding-right: 780px;
+
+}
+
+table,
+th,
+td {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.services h1 {
+    text-align: center;
+    padding-right: 780px;
+}
+
+.services li {
+    font-size: larger;
+}
+
+.services ol {
+    padding-left: 180px
+}
+
+.form h1 {
+    text-align: center;
+    padding-right: 780px;
+
+}
+
+.form label {
+    padding-left: 164px;
+}
+
+#textarea {
+    height: 100px;
+    width: 500px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 18px;
+
+}
+
+button {
+    height: 35px;
+    width: 105px;
+    border-radius: 4px;
+
+}
