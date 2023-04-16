@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Chitkara University</h1>
+        </div>
+    </header>
+    <div class="details">
+        <p>Located 30km from Chandigarh, Chitkara University offers a world of learning</p>
+        <p>that will help you reach your goals. Choose from our varied industry endorsed</p>
+        <p>programs. Learn from an outstanding faculty at our state-of-the-art teaching</p>
+        <p>facilites. Explore unlimited opportunities too get placed with one of the 1500+</p>
+        <p>campus recruiters and meet other students with dreams as big as yours.</p>
+        <div class="img"><img src="pic.jpg" alt="">
+        </div>
+    </div>
+    <div class="tableheading">
+        <h1>Courses:</h1>
+    </div>
+    <table>
+        <thead>
+            <th>Engineering </th>
+            <th>Science </th>
+            <th>Commerce</th>
+            <th>Others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>B-tech in CSE</td>
+                <td>Bsc in Maths</td>
+                <td>BBA</td>
+                <td>Diploma in IT</td>
+            </tr>
+            <tr>
+                <td>B-tech in ME</td>
+                <td>Bsc in Chemistry</td>
+                <td>MBA in Marketing</td>
+                <td>Diploma in Civil</td>
+            </tr>
+            <tr>
+                <td>B-tech in CHE</td>
+                <td>Bsc in Physics</td>
+                <td>MBA in Finance</td>
+                <td>NCC</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="services">
+        <h1>Other Services:</h1>
+        <ol>
+            <li>Bus</li>
+            <li>Career counselling</li>
+            <li>Sports</li>
+            <li>Hostels</li>
+            <li>Restaurants</li>
+        </ol>
+    </div>
+    <div class="form">
+        <h1>Enquirey Form:</h1>
+        <form action="">
+            <label for="Name">Name:</label>
+            <input type="Name" placeholder="Enter Your Name Here" id="Name" name="Name">
+            <br>
+            <br>
+            <label for="District">District:</label>
+            <input type="District" placeholder="Enter Your District" id="District" name="District">
+            <br>
+            <br>
+            <label for="State">State:</label>
+            <input type="State" placeholder="Enter Your State" id="State" name="State">
+            <br>
+            <br>
+            <label for="Age">Age:</label>
+            <input type="Age" placeholder="Enter Your Age" id="Age" name="Age">
+            <br>
+            <br>
+            <label for="DOB">DOB:</label>
+            <input type="" placeholder="Enter Your DOB">
+            <br>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="Email" placeholder="Enter Your Email" id="Email" name="Email">
+            <br>
+            <br>
+            <label for="Gender">Gender:</label>
+            <select id="Gender" name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            <br>
+            <label for=""><textarea id="inquiry" name="inquiry" placeholder="Your Special Inquiry"></textarea></label>
+            <br>
+            <br>
+            <label for=""><button>Submit</button></label>
+        </form>
+    </div>
+</body>
+
+</html>
